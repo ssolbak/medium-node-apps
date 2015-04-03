@@ -7,11 +7,11 @@ This project is an example of how to organize a medium-sized Node.JS app. Its no
 Discussion - in client side JS, no matter which framework you pick (React, Marionette, Angular) you are pushed a certain way. In Node, you are more
 left to your own means. Not all code belongs in server.js, we can agree on that.
 
-Maintainability (testable)
-Simple Code. Easier to test, easier to scope in your head. (Single Responsibility Principle and all that good stuff).
-Easy to find classes/functionality.
-Split applications in to modules as determined by their business boundaries.
- - A user, can be scattered throughout your domain
+- Maintainability (testable)
+- Simple Code. Easier to test, easier to scope in your head. (Single Responsibility Principle and all that good stuff).
+- Easy to find classes/functionality.
+- Split applications in to modules as determined by their business boundaries.
+- A user, can be scattered throughout your domain
 
 ## The Code
 
