@@ -1,6 +1,6 @@
 # medium-node-apps
 
-This project is an example of how to organize a medium-sized Node.JS app. Its not production quality :)
+This project is an example of how to organize a medium-sized Node.JS app.
 
 ## Goals
 
@@ -51,7 +51,7 @@ separate physical servers and scale over the network. Your bus will then be bett
 
 ## Opinions change
 
-We are always improving as developers. New frameworks come with new approaches. Talk to me in 3 months, I'll be doing things differently.
+We are always improving as developers. New frameworks come with new approaches. Talk to me in 3 months, I'll be doing things differently :)
 
 
 
