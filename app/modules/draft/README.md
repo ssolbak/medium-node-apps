@@ -1,1 +1,1 @@
-Just an example to show jobs are deployed separately.
+Illustration to show different modules.
