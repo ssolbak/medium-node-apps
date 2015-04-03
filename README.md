@@ -4,8 +4,11 @@ This project is an example of how to organize a medium-sized Node.JS app. Its no
 
 ## Goals
 
+Discussion - in client side JS, no matter which framework you pick (React, Marionette, Angular) you are pushed a certain way. In Node, you are more
+left to your own means. Not all code belongs in server.js, we can agree on that.
+
 Maintainability (testable)
-Simple Code. Easier to test, easier to scope in your head.
+Simple Code. Easier to test, easier to scope in your head. (Single Responsibility Principle and all that good stuff).
 Easy to find classes/functionality.
 Split applications in to modules as determined by their business boundaries.
  - A user, can be scattered throughout your domain
@@ -13,9 +16,9 @@ Split applications in to modules as determined by their business boundaries.
 ## The Code
 
 1) Sample fantasy hockey draft app (that does almost nothing)
-1) The event bus - communication between modules. Whether you use React, Marionette or whatever client side
-2) Avoid ../../../../dependency hell. Use a ~ symlink.
-3) Not implemented, but the public folder is more single page style.
+2) The event bus - communication between modules. Reduce cross-cutting coupling.
+3) Avoid ../../../../dependency hell. Use a ~ symlink.
+4) Not implemented, but the public folder is more single page style.
 
 ## Opinions
 
@@ -29,7 +32,7 @@ Split applications in to modules as determined by their business boundaries.
 
 ## Is this style for me?
 
-Depends on the size of your app. If its small, just make a couple controllers/services. This comes with some complexity.
+Depends on the size of your app. If its small, just make a couple controllers/services. This comes with some complexity so there are tradeoffs.
 
  - Is it a simple app?
  - Whats the Is it primarily data entry? Read only?
@@ -38,7 +41,8 @@ Not every app is the same. What are you familiar with.
 
 ## Decisions
 
-1) what to scale separately
+1) What to scale separately
+2) What are my business boundaries (this is often harder then coding them).
 
 ## What about large applications
 
@@ -47,7 +51,7 @@ seperate physical servers and scale over the network. Your bus will then be bett
 
 ## Opinions change
 
-Talk to me in 3 months, I'll be doing things differently.
+We are always improving as developers. New frameworks come with new approaches. Talk to me in 3 months, I'll be doing things differently.
 
 
 
