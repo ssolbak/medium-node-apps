@@ -34,10 +34,10 @@ left to your own means. Not all code belongs in server.js, we can agree on that.
 
 Depends on the size of your app. If its small, just make a couple controllers/services. This comes with some complexity so there are tradeoffs.
 
- - Is it a simple app?
+ - Is it a simple app? Is all your logic client side?
  - Whats the Is it primarily data entry? Read only?
 
-Not every app is the same. What are you familiar with.
+Not every app is the same. What are you familiar with as a team is often the best architecture.
 
 ## Decisions
 
