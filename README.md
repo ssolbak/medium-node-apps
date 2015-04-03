@@ -15,20 +15,20 @@ left to your own means. Not all code belongs in server.js, we can agree on that.
 
 ## The Code
 
-1) Sample fantasy hockey draft app (that does almost nothing)
-2) The event bus - communication between modules. Reduce cross-cutting coupling.
-3) Avoid ../../../../dependency hell. Use a ~ symlink.
-4) Not implemented, but the public folder is more single page style.
+1. Sample fantasy hockey draft app (that does almost nothing).
+2. The event bus - communication between modules. Reduce cross-cutting coupling.
+3. Avoid ../../../../dependency hell. Use a ~ symlink.
+4. Not implemented, but the public folder is more single page style.
 
 ## Opinions
 
-1) Group by coupling, not functionality.
-1) Use an event store.
-2) Be explicit
+1. Group by coupling, not functionality.
+2. Use an event store.
+3. Be explicit
     - much easier to code "make customer preferred" then "save customer"
-3) 10 tables/domain is a good rule. If more consider splitting.
-4) Keep your tests inline with your code. Remind yourself continually that each file should have tests.
-5) Names of files is critical. Underscores is not.
+4. 10 tables/domain is a good rule. If more consider splitting.
+5. Keep your tests inline with your code. Remind yourself continually that each file should have tests.
+6. Names of files is critical. Underscores is not.
 
 ## Is this style for me?
 
@@ -41,13 +41,13 @@ Not every app is the same. What are you familiar with.
 
 ## Decisions
 
-1) What to scale separately
-2) What are my business boundaries (this is often harder then coding them).
+1. What to scale separately
+2. What are my business boundaries (this is often harder then coding them).
 
 ## What about large applications
 
-In a huge application, you likely dont want all your code running in the same process. Its best to seperate domains into
-seperate physical servers and scale over the network. Your bus will then be better off with something like Redis.
+In a huge application, you likely don't want all your code running in the same process. Its best to separate domains into
+separate physical servers and scale over the network. Your bus will then be better off with something like Redis.
 
 ## Opinions change
 
